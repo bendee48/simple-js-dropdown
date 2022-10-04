@@ -1,6 +1,6 @@
 const dropdown = (() => {
   const dropdownMenus = document.querySelectorAll('.dropdown-menu');
-
+  console.log('I am working');
   dropdownMenus.forEach(menu => {
     menu.menuContent = menu.querySelector('.dropdown-content');
     menu.addEventListener('mouseover', openMenu);
@@ -16,4 +16,4 @@ const dropdown = (() => {
   }
 })();
 
-export { dropdown };
+export default dropdown;
