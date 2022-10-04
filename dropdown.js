@@ -15,5 +15,3 @@ const dropdown = (() => {
     this.menuContent.classList.remove('open-menu');
   }
 })();
-
-export default dropdown;
