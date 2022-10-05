@@ -8,6 +8,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "Applies simple dropdown funcionality to menus",
+  "description": "Applies simple dropdown functionality to HTML elements.",
   "dependencies": {}
 }

@@ -16,7 +16,7 @@ const dropdown = (() => {
     this.menuContent.classList.add('open-menu');
   }
 
-  function closeMenu(e) {
+  function closeMenu() {
     this.menuContent.classList.remove('open-menu');
   }
 
